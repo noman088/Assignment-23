@@ -25,7 +25,7 @@
 // int main()
 // {
 //     int a, b;
-//     cout << "Enter Two Number";
+//     cout << "Enter Two Numbers";
 //     cin >> a >> b;
 //     cout << a + b;
 //     return 0;
@@ -36,16 +36,31 @@
 // using namespace std;
 // int main()
 // {
-//     int r;
+//     int radius;
 //     float area;
-//     cout << "enter radius of a circle";
-//     cin >> r;
+//     cout << "Enter radius of a circle";
+//     cin >> radius;
 //     area = 3.14 * r*r;
 //     cout << "The Area of a circle is " << area;
 //     return 0;
 // }
 
+
+
 // 5. Write a C++ program to calculate the volume of a cuboid.
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int length, width, height;
+//     cout << "Enter Lenght width and height of a cuboid";
+//     cin >> length >> width >> height;
+//     cout << "Volume of a Cuboid is " << length * width * height;
+
+//     return 0;
+// }
+
+
 
 // 6. Write a C++ program to calculate an average of 3 numbers.
 // #include<iostream>
